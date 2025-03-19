@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "chat-with-repo"
+version = "0.1.0"
+description = ""
+authors = ["Arman Babayan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+jupyter = "^1.1.1"
+notebook = "^7.3.3"
+langchain = "^0.3.20"
+langchain-community = "^0.3.19"
+gitpython = "^3.1.44"
+openai = "^1.66.3"
+chromadb = "^0.6.3"
+tiktoken = "^0.9.0"
+sentence-transformers = "^3.4.1"
+qdrant-client = "^1.13.3"
+langchain-qdrant = "^0.2.0"
+langchain-huggingface = "^0.1.2"
+langchain-openai = "^0.3.8"
+loguru = "^0.7.3"
+streamlit = "^1.43.2"
+pre-commit = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
